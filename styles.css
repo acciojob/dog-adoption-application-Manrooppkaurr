@@ -1,2 +1,38 @@
-
+div{
+	background-color:#f2f2f2;
+	border-radius:5px;
+	padding:10px;
+}
+label{
+	display:block
+}
+input[type=checkbox]{
+	display:
+}
+input[type=text],select{
+	width:100%;
+	display:inline-block;
+	margin:10px;
+	padding:12px 20px;
+	border: 1px solid darkgreen;
+	border-radius:2px;
+	box-sizing:border-box;
+}
+button{
+	width:100%;
+	display:inline-block;
+	margin:10px;
+	padding:12px 20px;
+	border: 1px solid darkgreen;
+	border-radius:10px;
+	box-sizing:border-box;
+	background-color:green;
+	color:white;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+button:hover{
+	background-color:lightgreen
+}
 /* Your CSS Code here. */
